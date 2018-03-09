@@ -16,6 +16,6 @@ namespace APICoreWithEF.Models
 
 
         //add DB
-        public DbSet<CustomerTB> CustomerTB { get; set; }
+        public DbSet<Customer> Customer { get; set; }
     }
 }
